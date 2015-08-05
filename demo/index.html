@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>disclose-section Demo</title>
+    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+    <link rel="import" href="../disclose-section.html">
+    <style type="text/css">
+      div[content] {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        background-color: #ded;
+      }
+    </style>
+  </head>
+  <body>
+
+    <p>An example of <code>&lt;disclose-section&gt;</code>:</p>
+
+    <disclose-section>
+      <span trigger>Click me to toggle visibility.</span>
+      <span>this doesn't do anything tho </span>
+      <div content>
+        <p>Eek! I'm exposed!
+        <p>Eek! I'm exposed!
+        <p>Eek! I'm exposed!
+        <p>Eek! I'm exposed!
+        <p>Eek! I'm exposed!
+        <p>Eek! I'm exposed!
+        <p>Eek! I'm exposed!
+        <p>Eek! I'm exposed!
+      </div>
+    </disclose-section>
+  </body>
+</html>
