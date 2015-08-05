@@ -2,7 +2,7 @@
   "name": "disclose-section",
   "version": "1.0.0",
   "authors": [],
-  "description": "Hides or shows a section.",
+  "description": "An element to hide or show a section.",
   "keywords": [
     "web-component",
     "web-components",

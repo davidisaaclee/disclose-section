@@ -1,7 +1,7 @@
 <link rel="import" href="../polymer/polymer.html">
 
 <!--
-An element providing a solution to no problem in particular.
+An element to hide or show a section.
 
 Example:
 
@@ -55,7 +55,8 @@ Example:
       visible: {
         type: Boolean,
         value: false,
-        observer: '_visibleChanged'
+        observer: '_visibleChanged',
+        notify: true
       }
     },
 
