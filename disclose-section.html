@@ -72,7 +72,7 @@ Example:
         var distributed =
           Polymer.dom(Polymer.dom(this.$.disclose).children[0])
             .getDistributedNodes()
-        this.$.disclose.style['height'] = distributed[0].offsetHeight + 'px';
+        this.$.disclose.style['height'] = distributed[0].scrollHeight + 'px';
       } else {
         this.$.disclose.style['height'] = 0;
       }
